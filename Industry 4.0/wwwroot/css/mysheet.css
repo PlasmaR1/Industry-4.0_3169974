@@ -1,0 +1,146 @@
+﻿body {
+
+}
+
+.arboretum {
+    height: 200px;
+    background-image: url(../images/Banner1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.arboretum2 {
+    height: 200px;
+    background-image: url(../images/Banner2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+
+.arboretum3 {
+    height: 658px;
+    background-image: url(../images/Google_2.png);
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-attachment: fixed;
+}
+
+
+
+.arboretum4 {
+    height: 551px;
+    background-image: url(../images/Microsoft_2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+
+.intro {
+    height: 200px;
+    font-size: 36px;
+    text-align: center;
+    padding: 70px;
+    background: rgba(255, 25, 255, 0.00);
+    color: black;
+}
+
+
+
+.outro {
+    height: 200px;
+    font-size: 36px;
+    text-align: center;
+    padding: 70px;
+    background: rgba(255, 25, 255, 0.00);
+    color: white;
+}
+
+
+
+
+figure {
+    height: auto;
+    width: auto;
+    
+}
+
+img {
+    width: 100%;
+    height: 100%;
+}
+
+figcaption {
+    background: rgba(255, 255, 255, 1.00);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1em;
+    text-align: center;
+
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    position: absolute;
+
+
+    padding-top: 30%;
+    visibility: hidden;
+}
+
+
+
+
+
+
+
+
+
+figure:hover > figcaption {
+    visibility: visible;
+}
+
+
+
+
+
+figcaption {
+    background: rgba(19, 151, 247, 0.17);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1em;
+    text-align: center;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    position: absolute;
+    padding-top: 30%;
+    visibility: hidden;
+}
+
+
+figure {
+    height: auto;
+    width: auto;
+}
+
+
+
+.bottom-left {
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+    color: white;
+}
+
+
+.text-block {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    background: rgba(0, 0, 0, 0.44);
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+}

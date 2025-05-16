@@ -1,0 +1,280 @@
+﻿
+
+<div class="arboretum2">
+    <div class="outro">World map about 6 company & organizations</div>
+</div>
+
+<script src="http://maps.googleapis.com/maps/api/js"></script>
+<script src="<script src=”http://maps.googleapis.com/maps/api/js?key=AIzaSyBkDKld2c17s0k2AiIn1Q-4cI1NQxx5Qh4”></script>
+"></script>
+<div>
+    <script>
+        // Declare a variable for map
+        var map;
+        // Get lattitude and longitude of Canberra Centre
+        var London = new google.maps.LatLng(51.5073509, -0.1277583);
+        // Initialise the map
+        function initMap() {
+            // Define the properties for Canberra Centre map
+            var canberraMap = {
+                center: London,
+                zoom: 3,
+                mapTypeId: google.maps.MapTypeId.ROADMAP
+            };
+
+            // Create a map object for Canberra Centre
+            // using canberraMap and the <div> element with id="googleMap"
+            map = new google.maps.Map(
+                document.getElementById("googleMap"), canberraMap);
+
+            // Add markers below this line
+            addCanberraCentreMarker(map);
+            addCanberraMuseumGallery(map);
+            addGoogleHeadquaters(map);
+            addIBMHeadquaters(map);
+            addAmazonHeadquaters(map);
+            addMicrosoftquaters(map);
+        }
+        // Add other functions below this line
+        ///////////////////////////////////////////////////////////////////////////////////////
+        function addMicrosoftquaters(map) {
+            // Microsoft Headquaters
+            var Microsoftquaters = new google.maps.LatLng(47.642369, -122.136986);
+            var markerMicrosoft = new google.maps.Marker({
+                position: Microsoftquaters,
+            });
+
+            markerMicrosoft.setMap(map);
+
+            var contentMicrosoftHeadquater =
+                ' <h1>Microsoft</h1>' +
+                ' <img src="../images/Microsoft.jpg" ' +
+                '      style="float:left; width:25%; margin-right:10px;">' +
+                ' <p><b>Microsoft Corporation: </b>  is an American multinational technology company with headquarters in Redmond, Washington. It develops, manufactures, licenses, supports and sells computer software, consumer electronics, personal computers, and related services. Its best known software products are the Microsoft Windows line of operating systems, the Microsoft Office suite, and the Internet Explorer and Edge web browsers. Its flagship hardware products are the Xbox video game consoles and the Microsoft Surface lineup of touchscreen personal computers. As of 2016, it is the worlds largest software maker by revenue, [5]and one of the worlds most valuable companies.[6] The word "Microsoft" is a portmanteau of "microcomputer" and "software".[7]<br> ' +
+                '<a href="https://www.microsoft.com/en-au/store/b/home?source=lp&invsrc=search&cl_vend=google&cl_ch=sem&cl_camp=923056302&cl_adg=51717709852&cl_crtv=219456021522&cl_kw=microsoft&cl_pub=google.com&cl_place=&cl_dvt=c&cl_pos=1t1&cl_mt=e&cl_gtid=kwd-11656221&cl_pltr=&cl_dim0=WvzguAAAATMnbC1N:20180918150724:s&OCID=AID695932_SEM_WvzguAAAATMnbC1N:20180918150724:s&s_kwcid=AL!4249!3!219456021522!e!!g!!microsoft&ef_id=WvzguAAAATMnbC1N:20180918150724:s">Website</a>' +
+                ' </p>';
+
+            var infoMicrosoftquaters = new google.maps.InfoWindow({
+                content: contentMicrosoftHeadquater
+            });
+
+            google.maps.event.addListener(markerMicrosoft, 'click', function () {
+                infoMicrosoftquaters.open(map, markerMicrosoft);
+            });
+        }
+
+
+
+
+
+
+
+        ///////////////////////////////////////////////////////////////////////////////////////
+        function addAmazonHeadquaters(map) {
+            // Amazon Headquaters
+            var AmazonHeadquaters = new google.maps.LatLng(47.618853, -122.322882);
+            var markerAmazon = new google.maps.Marker({
+                position: AmazonHeadquaters,
+            });
+
+            markerAmazon.setMap(map);
+
+            var contentAmazonHeadquater =
+                ' <h1>Amazon</h1>' +
+                ' <img src="../images/Amazon.jpg" ' +
+                '      style="float:left; width:25%; margin-right:10px;">' +
+                ' <p><b>Amazon: </b> Amazon.com, Inc., doing business as Amazon, is an American electronic commerce and cloud computing company based in Seattle, Washington, that was founded by Jeff Bezos on July 5, 1994.<br> ' +
+                '<a href="https://www.amazon.com.au/">Website</a>' +
+                ' </p>';
+
+            var infoAmazonquaters = new google.maps.InfoWindow({
+                content: contentAmazonHeadquater
+            });
+
+            google.maps.event.addListener(markerAmazon, 'click', function () {
+                infoAmazonquaters.open(map, markerAmazon);
+            });
+        }
+
+
+
+
+        ///////////////////////////////////////////////////////////////////////////////////////
+        function addIBMHeadquaters(map) {
+            // IBM Headquaters
+            var IBMHeadquaters = new google.maps.LatLng(41.126242, -73.715046);
+            var markerIBM = new google.maps.Marker({
+                position: IBMHeadquaters,
+            });
+
+            markerIBM.setMap(map);
+
+            var contentIBMHeadquater =
+                ' <h1>IBM headquaters</h1>' +
+                ' <img src="../images/IBM.jpg" ' +
+                '      style="float:left; width:25%; margin-right:10px;">' +
+                ' <p><b>The IBM: </b> is an American multinational technology company headquartered in Armonk, New York, United States, with operations in over 170 countries. The company began in 1911 as the Computing-Tabulating-Recording Company (CTR) and was renamed "International Business Machines" in 1924.<br> ' +
+                '<a href="https://www.ibm.com/au-zh/">Website</a>' +
+                ' </p>';
+
+            var infoIBMquaters = new google.maps.InfoWindow({
+                content: contentIBMHeadquater
+            });
+
+            google.maps.event.addListener(markerIBM, 'click', function () {
+                infoIBMquaters.open(map, markerIBM);
+            });
+        }
+
+
+
+        ///////////////////////////////////////////////////////////////////////////////////////
+        function addGoogleHeadquaters(map) {
+            // Google Headquaters
+            var GoogleHeadquaters = new google.maps.LatLng(37.422118, -122.083931);
+            var markerGoogle = new google.maps.Marker({
+                position: GoogleHeadquaters,
+            });
+
+            markerGoogle.setMap(map);
+
+            var contentGoogleHeadquater =
+                ' <h1>Googleplex</h1>' +
+                ' <img src="../images/Googleplex.jpg" ' +
+                '      style="float:left; width:25%; margin-right:10px;">' +
+                ' <p><b>Googleplex: </b> The global headquarters of Google, ' +
+                'this campus encompasses offices, ' +
+                'green space & recreation areas.<br> ' +
+                '<a href="https://www.google.com/">Website</a>' +
+                ' </p>';
+
+            var infoGooglequaters = new google.maps.InfoWindow({
+                content: contentGoogleHeadquater
+            });
+
+            google.maps.event.addListener(markerGoogle, 'click', function () {
+                infoGooglequaters.open(map, markerGoogle);
+            });
+        }
+        ///////////////////////////////////////////////////////////////////////////////////////
+
+        function addCanberraCentreMarker(map) {
+            // Canberra Centre
+            var canberraCentre = new google.maps.LatLng(-35.2792284, 149.1321033);
+            var markerCanberraCentre = new google.maps.Marker({
+                position: canberraCentre,
+            });
+
+            markerCanberraCentre.setMap(map);
+
+            var contentCanberraCentre =
+                ' <h1>CSIRO</h1>' +
+                ' <img src="../images/CSIRO.jpg" ' +
+                '      style="float:left; width:25%; margin-right:10px;">' +
+                ' <p><b>Commonwealth Scientific and Industrial Research Organisation (CSIRO)</b>  is an independent Australian federal government agency responsible for scientific research. Its chief role is to improve the economic and social performance of industry for the benefit of the community.<br> ' +
+
+                '<a href="https://www.csiro.au/">Wikipedia</a>' +
+                ' </p>';
+
+            var infoCanberraCentre = new google.maps.InfoWindow({
+                content: contentCanberraCentre
+            });
+
+            google.maps.event.addListener(markerCanberraCentre, 'click', function () {
+                infoCanberraCentre.open(map, markerCanberraCentre);
+            });
+        }
+
+        ///////////////////////////////////////////////////////////////////////////////////////
+        function addCanberraMuseumGallery(map) {
+            // Department of industry innovation and science
+            var canberraMuseumGallery =
+                new google.maps.LatLng(-35.281716, 149.133872);
+            var markerCanberraMuseumGallery = new google.maps.Marker({
+                position: canberraMuseumGallery,
+            });
+
+            markerCanberraMuseumGallery.setMap(map);
+
+            var contentCanberraMuseumGallery =
+                ' <h1>Department of industry innovation and science</h1>' +
+                ' <img src="../images/CBRMuseumGallery.jpg" ' +
+                '      style="float:left; width:25%; margin-right:10px;">' +
+                ' <p><b>Department of industry innovation and science</b> is a Goverment department<br> ' +
+                '<a href="https://www.industry.gov.au/">Wikipedia</a>' +
+                ' </p>';
+
+            var infoCanberraMuseumGallery = new google.maps.InfoWindow({
+                content: contentCanberraMuseumGallery
+            });
+
+            google.maps.event.addListener(markerCanberraMuseumGallery, 'click',
+                function () {
+                    infoCanberraMuseumGallery.open(map, markerCanberraMuseumGallery);
+                });
+        }
+
+        // Add a DOM listener that will execute the initMap function
+        // on window load (when the page is loaded)
+        google.maps.event.addDomListener(window, 'load', initMap);
+    </script>
+
+    @* The div element below is to display Google Map*@
+    <div id="googleMap" style="width:100%;height:800px;"></div>
+
+
+
+</div>
+
+
+
+<div class="arboretum2"></div>
+
+
+
+
+
+
+
+
+
+    <div class="row">
+        <div class="col-md-3">
+            <h2>Application uses</h2>
+            <ul>
+                <li>Sample pages using ASP.NET Core MVC</li>
+                <li>Theming using <a href="https://go.microsoft.com/fwlink/?LinkID=398939">Bootstrap</a></li>
+            </ul>
+        </div>
+        <div class="col-md-3">
+            <h2>How to</h2>
+            <ul>
+                <li><a href="https://go.microsoft.com/fwlink/?LinkID=398600">Add a Controller and View</a></li>
+                <li><a href="https://go.microsoft.com/fwlink/?LinkId=699315">Manage User Secrets using Secret Manager.</a></li>
+                <li><a href="https://go.microsoft.com/fwlink/?LinkId=699316">Use logging to log a message.</a></li>
+                <li><a href="https://go.microsoft.com/fwlink/?LinkId=699317">Add packages using NuGet.</a></li>
+                <li><a href="https://go.microsoft.com/fwlink/?LinkId=699319">Target development, staging or production environment.</a></li>
+            </ul>
+        </div>
+        <div class="col-md-3">
+            <h2>Overview</h2>
+            <ul>
+                <li><a href="https://go.microsoft.com/fwlink/?LinkId=518008">Conceptual overview of what is ASP.NET Core</a></li>
+                <li><a href="https://go.microsoft.com/fwlink/?LinkId=699320">Fundamentals of ASP.NET Core such as Startup and middleware.</a></li>
+                <li><a href="https://go.microsoft.com/fwlink/?LinkId=398602">Working with Data</a></li>
+                <li><a href="https://go.microsoft.com/fwlink/?LinkId=398603">Security</a></li>
+                <li><a href="https://go.microsoft.com/fwlink/?LinkID=699321">Client side development</a></li>
+                <li><a href="https://go.microsoft.com/fwlink/?LinkID=699322">Develop on different platforms</a></li>
+                <li><a href="https://go.microsoft.com/fwlink/?LinkID=699323">Read more on the documentation site</a></li>
+            </ul>
+        </div>
+        <div class="col-md-3">
+            <h2>Run &amp; Deploy</h2>
+            <ul>
+                <li><a href="https://go.microsoft.com/fwlink/?LinkID=517851">Run your app</a></li>
+                <li><a href="https://go.microsoft.com/fwlink/?LinkID=517853">Run tools such as EF migrations and more</a></li>
+                <li><a href="https://go.microsoft.com/fwlink/?LinkID=398609">Publish to Microsoft Azure Web Apps</a></li>
+            </ul>
+        </div>
+    </div>
+

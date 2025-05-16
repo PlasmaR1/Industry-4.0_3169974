@@ -1,0 +1,383 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+
+
+
+
+<div class="arboretum2">
+    <div class="outro">Emerging Technologies</div>
+</div>
+
+
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<div id="elasticGrid"></div>
+
+<!-- Elastic grid -->
+<script type="text/javascript">
+    $(function () {
+        $("#elasticGrid").elastic_grid({
+            'showAllText': 'All',
+            'filterEffect': 'popup',
+            'hoverDirection': true,
+            'hoverDelay': 0,
+            'hoverInverse': false,
+            'expandingSpeed': 500,
+            'expandingHeight': 364,
+            'items':
+                [   /* ai start */
+                    {
+                        'title': 'IBM <hr/> <a class="btn btn-primary">More Details</a>',
+                        'description': '<h4>IBM does stuff and things on many levels. They have their hands in many baskets, and use popup ads religiously. click meh!</h4>',
+                        'thumbnail': ['/images/elasticGrid/ibm_sm.jpg'],
+                        'large': ['/images/elasticGrid/ibm.jpg'],
+                        'button_list':
+                            [
+                                { 'title': 'Visit Website', 'url': 'https://www.ibm.com/us-en/', 'new_window': true },
+                            ],
+                        'tags': ['AI']
+                    },
+
+                    {
+                        'title': 'Microsoft <hr/> <a class="btn btn-primary">More Details</a>',
+                        'description': '<h4>microsoft is known best for investing in apple in 1997. saved its biggest competitor whom is now a trillion dollar company (4x micro) </h4>',
+                        'thumbnail': ['/images/elasticGrid/micro_sm.jpg'],
+                        'large': ['/images/elasticGrid/micro.jpg'],
+                        'button_list':
+                            [
+                                { 'title': 'Visit Website', 'url': 'https://www.microsoft.com/en-us/ai/default.aspx', 'new_window': true },
+                            ],
+                        'tags': ['AI']
+                    },
+
+                    {
+                        'title': 'CSIRO <hr/> <a class="btn btn-primary">More Details</a>',
+                        'description': '<h4>CSIRO is a Aus Govt funded organisation that supposedly do stuff and things with AI. pretty cool hey, some of ya tax is goign here  </h4>',
+                        'thumbnail': ['/images/elasticGrid/csiro_sm.jpg'],
+                        'large': ['/images/elasticGrid/csiro.jpg'],
+                        'button_list':
+                            [
+                                { 'title': 'Visit Website', 'url': 'https://data61.csiro.au/en/Our-Work/AI-and-Machine-Learning', 'new_window': true },
+                            ],
+                        'tags': ['AI']
+                    },
+
+                    {
+                        'title': 'amazon <hr/> <a class="btn btn-primary">More Details</a>',
+                        'description': '<h4>jeff bezos earns ~$240,000 per minute because two-thirds of his staff (in US) are on governement welfare (known as  the cennie in aus). also, avg ~$0.0540839607574721 per minute for full time staff  </h4>',
+                        'thumbnail': ['/images/elasticGrid/amazon_sm.jpg'],
+                        'large': ['/images/elasticGrid/amazon.jpg'],
+                        'button_list':
+                            [
+                                { 'title': 'Visit Website', 'url': 'https://data61.csiro.au/en/Our-Work/AI-and-Machine-Learning', 'new_window': true },
+                            ],
+                        'tags': ['AI']
+                    },
+
+
+
+                    /* cognative services start */
+                    {
+                        'title': 'IBM <hr/> <a class="btn btn-primary">More Details</a>',
+                        'description': '<h4>IBM does stuff and things on many levels. They have their hands in many baskets, including some cognative services AI stuff like "watson" </h4>',
+                        'thumbnail': ['/images/elasticGrid/ibm_sm.jpg'],
+                        'large': ['/images/elasticGrid/ibm.jpg'],
+                        'button_list':
+                            [
+                                { 'title': 'Visit Website', 'url': 'https://www.ibm.com/services/artificial-intelligence', 'new_window': true },
+                            ],
+                        'tags': ['Cognitive Services']
+                    },
+
+                    {
+                        'title': 'Microsoft <hr/> <a class="btn btn-primary">More Details</a>',
+                        'description': '<h4>microsoft is known best for investing in apple in 1997. saved its biggest competitor whom is now a trillion dollar company (4x micro). Microsft offer cognative services which see you, hear you, understand what you say, and report back to microsoft. </h4>',
+                        'thumbnail': ['/images/elasticGrid/micro_sm.jpg'],
+                        'large': ['/images/elasticGrid/micro.jpg'],
+                        'button_list':
+                            [
+                                { 'title': 'Visit Website', 'url': 'https://azure.microsoft.com/en-au/services/cognitive-services/', 'new_window': true },
+                            ],
+                        'tags': ['Cognitive Services']
+                    },
+
+                    {
+                        'title': 'Google <hr/> <a class="btn btn-primary">More Details</a>',
+                        'description': '<h4>Google offer powerful image analytics tools to ensure that nothing will ever be plagerised, and more importantly, copystriked on youtube. </h4>',
+                        'thumbnail': ['/images/elasticGrid/google_sm.jpg'],
+                        'large': ['/images/elasticGrid/google.jpg'],
+                        'button_list':
+                            [
+                                { 'title': 'Visit Website', 'url': 'https://cloud.google.com/vision/', 'new_window': true },
+                            ],
+                        'tags': ['Cognitive Services']
+                    },
+
+                    {
+                        'title': 'Forbes <hr/> <a class="btn btn-primary">More Details</a>',
+                        'description': '<h4> Forbes try to stay relevant in their news sector by publishing articles on cognative technologies whilst quoting ted talks. </h4>',
+                        'thumbnail': ['/images/elasticGrid/forbes_sm.jpg'],
+                        'large': ['/images/elasticGrid/forbes.jpg'],
+                        'button_list':
+                            [
+                                { 'title': 'Visit Website', 'url': 'https://www.forbes.com/sites/bernardmarr/2016/03/23/what-everyone-should-know-about-cognitive-computing/', 'new_window': true },
+                            ],
+                        'tags': ['Cognitive Services']
+                    },
+
+                    /* cloud computing */
+                    {
+                        'title': 'Google <hr/> <a class="btn btn-primary">More Details</a>',
+                        'description': '<h4>Google offer powerful image analytics tools to ensure that nothing will ever be plagerised, and more importantly, copystriked on youtube. </h4>',
+                        'thumbnail': ['/images/elasticGrid/google_sm.jpg'],
+                        'large': ['/images/elasticGrid/google.jpg'],
+                        'button_list':
+                            [
+                                { 'title': 'Visit Website', 'url': 'https://cloud.google.com/solutions/iot/', 'new_window': true },
+                            ],
+                        'tags': ['Cloud Computing']
+                    },
+
+                    {
+                        'title': 'Microsoft <hr/> <a class="btn btn-primary">More Details</a>',
+                        'description': '<h4>microsoft also offer all kinds of cloud stuff. cloud seeding, cloud formation and finally, rain. all provided by microsoft azure </h4>',
+                        'thumbnail': ['/images/elasticGrid/micro_sm.jpg'],
+                        'large': ['/images/elasticGrid/micro.jpg'],
+                        'button_list':
+                            [
+                                { 'title': 'Visit Website', 'url': 'https://azure.microsoft.com/en-au/', 'new_window': true },
+                            ],
+                        'tags': ['Cloud Computing']
+                    },
+
+                    {
+                        'title': 'IBM <hr/> <a class="btn btn-primary">More Details</a>',
+                        'description': '<h4>IBM may actually be doing good stuff by using cloud services to help with preparation for natural disasters by employing AI, blockchain and IoT solutions. </h4>',
+                        'thumbnail': ['/images/elasticGrid/ibm_sm.jpg'],
+                        'large': ['/images/elasticGrid/ibm.jpg'],
+                        'button_list':
+                            [
+                                { 'title': 'Visit Website', 'url': 'https://www.ibm.com/cloud/', 'new_window': true },
+                            ],
+                        'tags': ['Cloud Computing']
+                    },
+
+                    {
+                        'title': 'Amazon <hr/> <a class="btn btn-primary">More Details</a>',
+                        'description': '<h4>amazon pretty much do everything cloud related. linked are all the ways you can give amazon your money  </h4>',
+                        'thumbnail': ['/images/elasticGrid/amazon_sm.jpg'],
+                        'large': ['/images/elasticGrid/amazon.jpg'],
+                        'button_list':
+                            [
+                                { 'title': 'Visit Website', 'url': 'https://aws.amazon.com/', 'new_window': true },
+                            ],
+                        'tags': ['Cloud Computing']
+                    },
+
+                    /* Robotics */
+                    {
+                        'title': 'Forbes <hr/> <a class="btn btn-primary">More Details</a>',
+                        'description': '<h4> Forbes does lots of reporting on stuff and things, in this case with robotics. to read more ad-driven news, click the link.</h4>',
+                        'thumbnail': ['/images/elasticGrid/forbes_sm.jpg'],
+                        'large': ['/images/elasticGrid/forbes.jpg'],
+                        'button_list':
+                            [
+                                { 'title': 'Visit Website', 'url': 'https://www.automationworld.com/industry-40-here-are-you-ready', 'new_window': true },
+                            ],
+                        'tags': ['Robotics']
+                    },
+
+                    {
+                        'title': 'ZDNet <hr/> <a class="btn btn-primary">More Details</a>',
+                        'description': '<h4>not really sure what zd net does, seems to be similar to forbes ad-driven media online. check it out here, if you are bored. </h4>',
+                        'thumbnail': ['/images/elasticGrid/zd_sm.jpg'],
+                        'large': ['/images/elasticGrid/zd.jpg'],
+                        'button_list':
+                            [
+                                { 'title': 'Visit Website', 'url': 'https://www.zdnet.com/article/robotics-and-industry-4-0/', 'new_window': true },
+                            ],
+                        'tags': ['Robotics']
+                    },
+
+                    {
+                        'title': 'I-Scoop Robots Cobots <hr/> <a class="btn btn-primary">More Details</a>',
+                        'description': '<h4>Some solid ad-driven media discussing industry 4.0 introcution of automation in manufacturing and logistics and the predicted growth etc </h4>',
+                        'thumbnail': ['/images/elasticGrid/i_sm.jpg'],
+                        'large': ['/images/elasticGrid/i.jpg'],
+                        'button_list':
+                            [
+                                { 'title': 'Visit Website', 'url': 'https://www.i-scoop.eu/robots-cobots-logistics-4-0/', 'new_window': true },
+                            ],
+                        'tags': ['Robotics']
+                    },
+
+                    {
+                        'title': 'Automation world <hr/> <a class="btn btn-primary">More Details</a>',
+                        'description': '<h4> another news site here to take your attention and money by discussing some industry 4.0 topics such as.. just read the article  </h4>',
+                        'thumbnail': ['/images/elasticGrid/auto_sm.jpg'],
+                        'large': ['/images/elasticGrid/auto.jpg'],
+                        'button_list':
+                            [
+                                { 'title': 'Visit Website', 'url': 'https://www.automationworld.com/industry-40-here-are-you-ready', 'new_window': true },
+                            ],
+                        'tags': ['Robotics']
+                    },
+
+                    /* Blockchains */
+                    {
+                        'title': 'Blockchain <hr/> <a class="btn btn-primary">More Details</a>',
+                        'description': '<h4> encouraging investment into blockchains. its the new, 21st century gambling for young people, because the returns on the share market is trash and the us dollar is worthless. get a wallet here.</h4>',
+                        'thumbnail': ['/images/elasticGrid/block_sm.jpg'],
+                        'large': ['/images/elasticGrid/block.jpg'],
+                        'button_list':
+                            [
+                                { 'title': 'Visit Website', 'url': 'https://www.blockchain.com/', 'new_window': true },
+                            ],
+                        'tags': ['Blockchains']
+                    },
+
+                    {
+                        'title': 'PC Mag <hr/> <a class="btn btn-primary">More Details</a>',
+                        'description': '<h4> some more info about blockchain currency.. seems to be some introduction into the legend of Satoshi Nakamoto.  </h4>',
+                        'thumbnail': ['/images/elasticGrid/pc_sm.jpg'],
+                        'large': ['/images/elasticGrid/pc.jpg'],
+                        'button_list':
+                            [
+                                { 'title': 'Visit Website', 'url': 'https://au.pcmag.com/amazon-web-services/46389/feature/blockchain-the-invisible-technology-thats-changing-the-world', 'new_window': true },
+                            ],
+                        'tags': ['Blockchains']
+                    },
+
+                    {
+                        'title': ' Forbes, again <hr/> <a class="btn btn-primary">More Details</a>',
+                        'description': '<h4>Some solid ad-driven media discussing some industry 4.0 and blockchain. still no one talking about replacing the US dollar, unfortunately </h4>',
+                        'thumbnail': ['/images/elasticGrid/forbes_sm.jpg'],
+                        'large': ['/images/elasticGrid/forbes.jpg'],
+                        'button_list':
+                            [
+                                { 'title': 'Visit Website', 'url': 'https://www.forbes.com/sites/andrewrossow/2018/04/11/bringing-blockchain-into-industry-4-0/', 'new_window': true },
+                            ],
+                        'tags': ['Blockchains']
+                    },
+
+                    {
+                        'title': 'CSIRO <hr/> <a class="btn btn-primary">More Details</a>',
+                        'description': '<h4> the aus govt has taken an interest into blockchain currencies becasue they realise that its a chance of the ordinary pleb to dodge the counties absurd taxes, a privelige only shared by the 1%, no one else.  </h4>',
+                        'thumbnail': ['/images/elasticGrid/csiro_sm.jpg'],
+                        'large': ['/images/elasticGrid/csiro.jpg'],
+                        'button_list':
+                            [
+                                { 'title': 'Visit Website', 'url': 'https://www.data61.csiro.au/en/our-work/safety-and-security/secure-systems-and-platforms/blockchain', 'new_window': true },
+                            ],
+                        'tags': ['Blockchains']
+                    },
+
+                    /* IoT start */
+
+
+
+                    {
+                        'title': 'IBM again <hr/> <a class="btn btn-primary">More Details</a>',
+                        'description': '<h4>IBM does stuff and things on many levels. They have their hands in many baskets, including yours. IBm might as well have a company goal to be as intrusive as possible with internet of things devices click meh!</h4>',
+                        'thumbnail': ['/images/elasticGrid/ibm_sm.jpg'],
+                        'large': ['/images/elasticGrid/ibm.jpg'],
+                        'button_list':
+                            [
+                                { 'title': 'Visit Website', 'url': 'https://www.ibm.com/blogs/internet-of-things/industry-4-0/', 'new_window': true },
+                            ],
+                        'tags': ['IoT']
+                    },
+
+                    {
+                        'title': 'Microsoft <hr/> <a class="btn btn-primary">More Details</a>',
+                        'description': '<h4>microsoft is known best for investing in apple in 1997. saved its biggest competitor whom is now a trillion dollar company (4x micro). perhaps if the were not busy developing malware like skype and other intrusive IoT devices, they would be ahead of the game.  </h4>',
+                        'thumbnail': ['/images/elasticGrid/micro_sm.jpg'],
+                        'large': ['/images/elasticGrid/micro.jpg'],
+                        'button_list':
+                            [
+                                { 'title': 'Visit Website', 'url': 'https://www.microsoft.com/en-au/internet-of-things/', 'new_window': true },
+                            ],
+                        'tags': ['IoT']
+                    },
+
+                    {
+                        'title': 'amazon <hr/> <a class="btn btn-primary">More Details</a>',
+                        'description': '<h4>jeff bezos earns ~$240,000 per minute because two-thirds of his staff (in US) are on governement welfare (known as  the cennie in aus). also, avg ~$0.0540839607574721 per minute for full time staff  </h4>',
+                        'thumbnail': ['/images/elasticGrid/amazon_sm.jpg'],
+                        'large': ['/images/elasticGrid/amazon.jpg'],
+                        'button_list':
+                            [
+                                { 'title': 'Visit Website', 'url': 'https://aws.amazon.com/iot/?sc_channel=PS&sc_campaign=acquisition_AU&sc_publisher=google&sc_medium=iot_nb&sc_content=iot_e&sc_detail=iot&sc_category=iot&sc_segment=154387165862&sc_matchtype=e&sc_country=AU&s_kwcid=AL!4422!3!154387165862!e!!g!!iot&ef_id=WmksLwAAAHVHXlHa:20180805102347:s', 'new_window': true },
+                            ],
+                        'tags': ['IoT']
+                    },
+
+                    {
+                        'title': 'Aus Govt IoT project <hr/> <a class="btn btn-primary">More Details</a>',
+                        'description': '<h4> the aus government is also looking at some intrusive IoT devices. who knows, maybe next if youre on the cennie, you wont be able to work for cash cause your toaster wil be watching you.  </h4>',
+                        'thumbnail': ['/images/elasticGrid/acola_sm.jpg'],
+                        'large': ['/images/elasticGrid/acola.jpg'],
+                        'button_list':
+                            [
+                                { 'title': 'Visit Website', 'url': 'https://www.cio.com.au/article/641518/feds-launch-ai-iot-projects/', 'new_window': true },
+                            ],
+                        'tags': ['IoT']
+                    },
+
+
+
+
+                ]
+        });
+    });
+</script>
+
+
+<div class="arboretum"></div>
+
+
+
+<div class="row">
+    <div class="col-md-3">
+        <h2>Application uses</h2>
+        <ul>
+            <li>Sample pages using ASP.NET Core MVC</li>
+            <li>Theming using <a href="https://go.microsoft.com/fwlink/?LinkID=398939">Bootstrap</a></li>
+        </ul>
+    </div>
+    <div class="col-md-3">
+        <h2>How to</h2>
+        <ul>
+            <li><a href="https://go.microsoft.com/fwlink/?LinkID=398600">Add a Controller and View</a></li>
+            <li><a href="https://go.microsoft.com/fwlink/?LinkId=699315">Manage User Secrets using Secret Manager.</a></li>
+            <li><a href="https://go.microsoft.com/fwlink/?LinkId=699316">Use logging to log a message.</a></li>
+            <li><a href="https://go.microsoft.com/fwlink/?LinkId=699317">Add packages using NuGet.</a></li>
+            <li><a href="https://go.microsoft.com/fwlink/?LinkId=699319">Target development, staging or production environment.</a></li>
+        </ul>
+    </div>
+    <div class="col-md-3">
+        <h2>Overview</h2>
+        <ul>
+            <li><a href="https://go.microsoft.com/fwlink/?LinkId=518008">Conceptual overview of what is ASP.NET Core</a></li>
+            <li><a href="https://go.microsoft.com/fwlink/?LinkId=699320">Fundamentals of ASP.NET Core such as Startup and middleware.</a></li>
+            <li><a href="https://go.microsoft.com/fwlink/?LinkId=398602">Working with Data</a></li>
+            <li><a href="https://go.microsoft.com/fwlink/?LinkId=398603">Security</a></li>
+            <li><a href="https://go.microsoft.com/fwlink/?LinkID=699321">Client side development</a></li>
+            <li><a href="https://go.microsoft.com/fwlink/?LinkID=699322">Develop on different platforms</a></li>
+            <li><a href="https://go.microsoft.com/fwlink/?LinkID=699323">Read more on the documentation site</a></li>
+        </ul>
+    </div>
+    <div class="col-md-3">
+        <h2>Run &amp; Deploy</h2>
+        <ul>
+            <li><a href="https://go.microsoft.com/fwlink/?LinkID=517851">Run your app</a></li>
+            <li><a href="https://go.microsoft.com/fwlink/?LinkID=517853">Run tools such as EF migrations and more</a></li>
+            <li><a href="https://go.microsoft.com/fwlink/?LinkID=398609">Publish to Microsoft Azure Web Apps</a></li>
+        </ul>
+    </div>
+</div>
+
