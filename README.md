@@ -19,17 +19,22 @@ Footer: No changes needed — just copy and paste from the original.
 <img width="865" height="472" alt="image" src="https://github.com/user-attachments/assets/bd057812-a3df-4f39-932d-e97f7e0f07bc" />
 
 
-### 2.	Companies & Organization’s : 
+### 2.	Companies & Organization: 
+
 I’m using Parallax Scrolling for the “What’s New” section. I leave space for each image. For images of each enterprise, the 12-column grid is divided into two 6-column sections, with <span>&nbsp;&nbsp;&nbsp;</span> used to add a gap between them.
 <img width="865" height="448" alt="image" src="https://github.com/user-attachments/assets/7ac1b2f0-a205-43be-8e98-6b4d38c54e5e" />
 <img width="865" height="472" alt="image" src="https://github.com/user-attachments/assets/68f09b88-d71b-41fd-926b-4dcc3af8e6fd" />
-For big imagessuch as Amazon and Csiro, I use Parallax Scrolling to create a cooler effect, similar to Google and Microsoft shown below. Also, add a text box positioned in the bottom right corner to introduce each company.
+
+For big images such as Amazon and CSIRO, I use Parallax Scrolling to create a cooler effect, similar to Google and Microsoft shown below. Also, add a text box positioned in the bottom right corner to introduce each company.
+
 <img width="865" height="472" alt="image" src="https://github.com/user-attachments/assets/5c264d77-8721-4c20-bac1-ff1349631b70" />
 <img width="865" height="472" alt="image" src="https://github.com/user-attachments/assets/ff582715-fd5a-4351-8416-575d881ccb51" />
 <img width="865" height="472" alt="image" src="https://github.com/user-attachments/assets/ad043597-7940-4345-83d9-cd5014ee2304" />
 
 ### 3.	Emerging Technology:
+
 For this section, I Used an external jQuery plugin from the tutorial and Elastic Grid. Update the text, images, and website links accordingly.
+
 <img width="865" height="472" alt="image" src="https://github.com/user-attachments/assets/af5fc52c-f9be-4eea-95fc-029041253b4f" />
 <img width="865" height="187" alt="image" src="https://github.com/user-attachments/assets/11110eb9-7281-4dbd-a3de-8e575253c6f9" />
 <img width="865" height="472" alt="image" src="https://github.com/user-attachments/assets/cf417db5-eef3-406e-9759-f45a6ea53dea" />
@@ -37,7 +42,10 @@ For this section, I Used an external jQuery plugin from the tutorial and Elastic
 
 ### 4.	World maps:
 <img width="865" height="472" alt="image" src="https://github.com/user-attachments/assets/9f59da46-f4ab-45d6-ae68-f057d9f7f3f5" />
-I have followed the tutorial and updated the locations, centring the map on London by utilising the RESTful Google Maps API. However, I noticed that some of the markers are clustered too closely together, causing them to overlap and making it difficult to distinguish individual locations. 
+
+I have followed the tutorial provided and updated the locations, centring the map on London by utilising the RESTful Google Maps API. However, I noticed that some of the markers are clustered too closely together, causing them to overlap and making it difficult to distinguish individual locations. 
+
+
 <img width="865" height="467" alt="image" src="https://github.com/user-attachments/assets/02bc2b75-c000-43fc-9d66-f50840d06866" />
 <img width="865" height="434" alt="image" src="https://github.com/user-attachments/assets/9bc4786c-1425-42d1-921c-89a4dba740cd" />
 <img width="865" height="419" alt="image" src="https://github.com/user-attachments/assets/8abe7739-02bb-41b4-8d74-4d4b65a2b5e0" />
