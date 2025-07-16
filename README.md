@@ -5,9 +5,11 @@
 This report outlines the development of a 2017 web design project built with C#, featuring login and registration functionalities storing data locally. The website incorporates Parallax Scrolling and interactive hover effects on the homepage, showcasing technology topics with navigable “Learn More” links. The “Companies & Organization” section uses a 12-column grid layout with Parallax effects and informative text boxes for major enterprises. An external jQuery plugin and Elastic Grid power the “Emerging Technology” section, with updated content and links. The “World Maps” section utilizes the RESTful Google Maps API centered on London, though marker overlap remains an issue. The design concludes with standard contact and about sections, integrating Bootstrap components and consistent styling throughout.
 
 ### 1.	Index: 
-Parallax Scrolling and intro on first image, next 6 image using the hover sector, When mouse hover on top, it shows the information about 6 tech. Click learn more jump forward to the page Emerging Technologies. 
+Parallax Scrolling and intro on first image, next 6 images using the hover sector. When the mouse hovers on top, it shows the information about 6 tech. Click learn more, jump forward to the page Emerging Technologies. 
+
 <img width="865" height="472" alt="image" src="https://github.com/user-attachments/assets/e9f59897-0917-4c85-abe5-684b05e220ef" />
 <img width="865" height="472" alt="image" src="https://github.com/user-attachments/assets/417c099c-f756-4540-8092-0bb66265b9ee" />
+
 After the 6th image, add the next section using Parallax Scrolling with a centered title.
 
 Below that, insert a Bootstrap Carousel reused from the original index page.
@@ -16,12 +18,14 @@ Make sure to adjust the image sizes and update the accompanying text.
 For the "Learn More" button, ensure it links to the appropriate section of the website.
 
 Footer: No changes needed — just copy and paste from the original.
+
 <img width="865" height="472" alt="image" src="https://github.com/user-attachments/assets/bd057812-a3df-4f39-932d-e97f7e0f07bc" />
 
 
 ### 2.	Companies & Organization: 
 
 I’m using Parallax Scrolling for the “What’s New” section. I leave space for each image. For images of each enterprise, the 12-column grid is divided into two 6-column sections, with <span>&nbsp;&nbsp;&nbsp;</span> used to add a gap between them.
+
 <img width="865" height="448" alt="image" src="https://github.com/user-attachments/assets/7ac1b2f0-a205-43be-8e98-6b4d38c54e5e" />
 <img width="865" height="472" alt="image" src="https://github.com/user-attachments/assets/68f09b88-d71b-41fd-926b-4dcc3af8e6fd" />
 
