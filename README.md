@@ -1,8 +1,8 @@
 <div align="justify">
-Web Design Report 2017
 
-This is the web design unit that i was donw in 2017, the website is using C#, the website as the image shows below has the login and register function that storage data in localhost 
+### Summary
 
+This report outlines the development of a 2017 web design project built with C#, featuring login and registration functionalities storing data locally. The website incorporates Parallax Scrolling and interactive hover effects on the homepage, showcasing technology topics with navigable “Learn More” links. The “Companies & Organization” section uses a 12-column grid layout with Parallax effects and informative text boxes for major enterprises. An external jQuery plugin and Elastic Grid power the “Emerging Technology” section, with updated content and links. The “World Maps” section utilizes the RESTful Google Maps API centered on London, though marker overlap remains an issue. The design concludes with standard contact and about sections, integrating Bootstrap components and consistent styling throughout.
 
 ### 1.	Index: 
 Parallax Scrolling and intro on first image, next 6 image using the hover sector, When mouse hover on top, it shows the information about 6 tech. Click learn more jump forward to the page Emerging Technologies. 
