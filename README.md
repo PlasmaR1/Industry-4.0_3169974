@@ -2,7 +2,7 @@
 
 ### Summary
 
-This is a personal University final assignment from 2017; the time limit for this assignment is 7 days. The goal is to use C# to design a web application, featuring login and registration functionalities, and storing data locally. The website incorporates Parallax Scrolling and interactive hover effects on the homepage, showcasing technology topics with navigable “Learn More” links. The “Companies & Organization” section uses a 12-column grid layout with Parallax effects and informative text boxes for major enterprises. An external jQuery plugin and Elastic Grid power the “Emerging Technology” section, with updated content and links. The “World Maps” section utilizes the RESTful Google Maps API centered on London, though marker overlap remains an issue. The design concludes with standard contact and about sections, integrating Bootstrap components and consistent styling throughout.
+This is a personal University final assignment from 2017; The time limit for this assignment is 7 days. The goal is to use C# to design a web application, featuring login and registration functionalities, and storing data locally. The website incorporates Parallax Scrolling and interactive hover effects on the homepage, showcasing technology topics with navigable “Learn More” links. The “Companies & Organization” section uses a 12-column grid layout with Parallax effects and informative text boxes for major enterprises. An external jQuery plugin and Elastic Grid power the “Emerging Technology” section, with updated content and links. The “World Maps” section utilizes the RESTful Google Maps API centered on London, though marker overlap remains an issue. The design concludes with standard contact and about sections, integrating Bootstrap components and consistent styling throughout.
 
 ### 1.	Index: 
 Parallax Scrolling and intro on first image, next 6 images using the hover sector. When the mouse hovers on top, it shows the information about 6 tech. Click learn more, jump forward to the page Emerging Technologies. 
@@ -10,7 +10,7 @@ Parallax Scrolling and intro on first image, next 6 images using the hover secto
 <img width="865" height="472" alt="image" src="https://github.com/user-attachments/assets/e9f59897-0917-4c85-abe5-684b05e220ef" />
 <img width="865" height="472" alt="image" src="https://github.com/user-attachments/assets/417c099c-f756-4540-8092-0bb66265b9ee" />
 
-After the 6th image, add the next section using Parallax Scrolling with a centered title.
+After the 6th image, add the next section using Parallax Scrolling with a centred title.
 
 Below that, insert a Bootstrap Carousel reused from the original index page.
 Make sure to adjust the image sizes and update the accompanying text.
